@@ -1,0 +1,23 @@
+
+This is my about Page, im vibe coder !!
+
+<h1>Name: {{name}} </h1>
+
+<h1> Age: {{age}} </h1>
+
+{% if age > 18 %}
+
+They can Vote !! 
+{% else %}
+
+They cannot Vote !! 
+
+{% endif %}
+
+
+{% for m in fav_movies %}
+</br> {{m}} 
+
+{% endfor %}
+
+<h1> Address: {{address}} </h1>

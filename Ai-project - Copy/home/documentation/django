@@ -1,0 +1,68 @@
+[12:36 PM, 5/3/2026] .......anjita: Install Django
+Add it to your project dependencies
+   ->  uv add  django
+
+
+
+for blog 
+    -> uv run django-admin startproject blog .
+
+setting.py -> heart of django project
+WSig.py ->  
+asgi.py ->
+manage.py ->
+urls.py ->
+
+
+for run server
+    -> uv run python manage.py runserver
+
+for home folder 
+  -> uv run python manage.py startapp home
+
+  template vitra html file haru kholni
+  setting ma gayara template lai change garni 'BASE DIR/'templates
+  view.py ma gayara return render(request,'base.html')
+
+Next day
+  for makemigration 
+      ->uv run python manage.py makemigrations
+      ans ->no change detected
+
+
+for migrate
+   ->uv run python manage.py migrate
+    output -> Running migration
+after this 
+   ->uv run python manage.py runserver
+
+create superuser
+  ->uv run python manage.py createsuperuser
+[12:41 PM, 5/3/2026] .......anjita: create superuser
+  ->uv run python manage.py createsuperuser
+  output - username 
+  email 
+  pw
+  re-pw
+
+for add product ,install sqlite
+add username pw in server 
+in models.py write data 
+ani server ya website ma gayera add products 
+db.sqlite ma home ma dekhauxa
+admin.py 
+views.py 
+models.py → creates data
+admin.py → shows data in admin
+views.py → sends data to HTML
+templates → displays data
+
+
+Again ,->uv run python manage.py makemigrations
+  ->uv run python manage.py migrate
+
+  username: Admin11
+  password: 11
+
+  
+  
