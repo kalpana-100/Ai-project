@@ -55,3 +55,5 @@ import .models from product,django.forms modelform
 #xyz@gmail.com,  1234      
 #email:a@gmail.com pwd: 11  (admin)
 #k@gmail.com , 0000
+
+
